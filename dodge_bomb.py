@@ -59,7 +59,6 @@ def init_bb_imgs() -> tuple[list[pg.Surface], list[int]]:
         bb_imgs.append(bb_img)
 
     bb_accs = [a for a in range(1, 11)]
-
     return (bb_imgs, bb_accs)
 
 def main():
